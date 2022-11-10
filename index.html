@@ -64,7 +64,7 @@
       <section class="section-hero overlay">
         <div class="container hero">
           <h1 class="hero-title item">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn item">Замовити послугу</button>
+          <button data-modal-open type="button" class="hero-btn item">Замовити послугу</button>
         </div>
       </section>
       <!-- Feature -->
@@ -587,5 +587,14 @@
         
       </div>
     </footer>
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close type="button" class="modal-btn"><svg  class="modal-icon" width="18px" height="18px">
+          <use href="./images/symbol-defs.svg#close-black"></use>
+        </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
